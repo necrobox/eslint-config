@@ -1,5 +1,10 @@
 # Changelog
 
+## 9.0.0 (26.12.2025)
+
+Replaced @funboxteam/eslint-plugin-no-only-tests with @necrobox/no-only-tests/no-only.
+
+
 ## 8.0.0 (26.12.2025)
 
 Moved package from @funboxteam to @necrobox scope.

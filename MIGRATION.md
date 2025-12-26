@@ -1,5 +1,10 @@
 # Migration
 
+## 7.4.0 → 8.0.0
+
+Use `@necrobox/eslint-config` instead of `@funboxteam/eslint-config`.
+
+
 ## 6.0.1 → 7.0.0
 
 eslint-plugin-jsx-a11y@6.2.3 is not marked as eslint@7 compatible. 

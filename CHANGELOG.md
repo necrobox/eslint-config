@@ -1,5 +1,12 @@
 # Changelog
 
+## 8.0.0 (26.12.2025)
+
+Moved package from @funboxteam to @necrobox scope.
+
+Also updated deps to the highest versions that are compatible with Airbnb config.
+
+
 ## 7.4.0 (25.08.2022)
 
 **Update dependencies:**
@@ -12,6 +19,7 @@
 **Update peerDependencies:**
 
 * eslint: ^7.32.0 => ^7.32.0 || ^8.2.0
+
 
 ## 7.3.0 (25.08.2022)
 

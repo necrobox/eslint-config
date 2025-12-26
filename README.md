@@ -1,6 +1,6 @@
-# @funboxteam/eslint-config
+# @necrobox/eslint-config
 
-[![npm](https://img.shields.io/npm/v/@funboxteam/eslint-config.svg)](https://www.npmjs.com/package/@funboxteam/eslint-config)
+[![npm](https://img.shields.io/npm/v/@necrobox/eslint-config.svg)](https://www.npmjs.com/package/@necrobox/eslint-config)
 
 ESLint rules that follow our style guide.
 
@@ -11,7 +11,7 @@ Based on the well-known [Airbnb JS Style Guide](https://github.com/airbnb/javasc
 ## Installation
 
 ```bash
-npm install --save-dev @funboxteam/eslint-config
+npm install --save-dev @necrobox/eslint-config
 ``` 
 
 ## Usage
@@ -20,20 +20,20 @@ Include into a project config using flag [-c](http://eslint.org/docs/user-guide/
 and pass paths for files as arguments:
 
 ```sh
-eslint -c node_modules/@funboxteam/eslint-config/.eslintrc.js src/app src/sandbox
+eslint -c node_modules/@necrobox/eslint-config/.eslintrc.js src/app src/sandbox
 ```
 
 To lint tests files use the separated config:
 
 ```sh 
-eslint -c node_modules/@funboxteam/eslint-config/.eslintrc.tests.js src/tests
+eslint -c node_modules/@necrobox/eslint-config/.eslintrc.tests.js src/tests
 ```
 
 Also you can create your own `.eslintrc.js` and extend this config there: 
 
 ```js
 module.exports = {
-  extends: '@funboxteam',
+  extends: '@necrobox',
   env: {
     browser: true
   },
@@ -56,7 +56,7 @@ Same for tests' config:
 
 ```
 module.exports = {
-  extends: '@funboxteam/eslint-config/tests',
+  extends: '@necrobox/eslint-config/tests',
   globals: {
     __utils__: 'readonly',
   }

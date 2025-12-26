@@ -20,9 +20,6 @@
   ],
   "author": "FunBox LLC <wanted@fun-box.ru> (https://funbox.ru)",
   "license": "MIT",
-  "scripts": {
-    "prepublishOnly": "if [ -z \"$CI\" ]; then lawyer; fi"
-  },
   "dependencies": {
     "@funboxteam/eslint-plugin-no-only-tests": "5.0.0",
     "eslint-config-airbnb": "19.0.4",

@@ -1,5 +1,5 @@
 {
-  "name": "@funboxteam/eslint-config",
+  "name": "@necrobox/eslint-config",
   "version": "7.4.0",
   "description": "ESLint rules that follow our style guide",
   "keywords": [
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/funbox/eslint-config"
+    "url": "https://github.com/necrobox/eslint-config"
   },
   "files": [
     ".eslintrc.js",

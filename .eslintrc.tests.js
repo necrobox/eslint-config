@@ -12,8 +12,8 @@ module.exports = {
     it: 'readonly',
     xit: 'readonly',
   },
-  plugins: ['@funboxteam/eslint-plugin-no-only-tests'],
+  plugins: ['@necrobox/eslint-plugin-no-only-tests'],
   rules: {
-    '@funboxteam/no-only-tests/no-only': 2,
+    '@necrobox/no-only-tests/no-only': 2,
   },
 };

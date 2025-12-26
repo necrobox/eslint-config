@@ -1,8 +1,13 @@
 # Migration
 
+## 8.0.0 → 9.0.0
+
+If you were overriding `@funboxteam/no-only-tests/no-only` rule, rename it to `@necrobox/no-only-tests/no-only`.
+
+
 ## 7.4.0 → 8.0.0
 
-Use `@necrobox/eslint-config` instead of `@funboxteam/eslint-config`.
+Use @necrobox/eslint-config instead of @funboxteam/eslint-config.
 
 
 ## 6.0.1 → 7.0.0

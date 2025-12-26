@@ -64,5 +64,3 @@ module.exports = {
 ``` 
 
 Read more about `.eslintrc.js` in [ESLint docs](https://eslint.org/docs/user-guide/configuring).
-
-[![Sponsored by FunBox](https://funbox.ru/badges/sponsored_by_funbox_centered.svg)](https://funbox.ru)
